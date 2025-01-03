@@ -131,6 +131,7 @@
   position: relative;
   overflow: hidden;
   transition: 0.3s;
+  inline-size: -moz-fit-content;
   inline-size: fit-content;
 }
 
@@ -174,8 +175,10 @@
 }
 
 .image_about {
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   block-size: 100%;
   inline-size: 100%;
   max-block-size: 100%;
@@ -190,6 +193,7 @@
   border-radius: 25px;
   margin-inline-end: 25px;
   padding: 15px;
+  block-size: -moz-fit-content;
   block-size: fit-content;
   background-color: rgb(170 187 204 / 0.25);
 }
@@ -286,8 +290,10 @@
 }
 
 .fromlife_article-image {
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   block-size: 300px;
   inline-size: 100%;
   border-radius: 25px;
@@ -328,7 +334,8 @@
 }
 
 .article_low-image {
-  object-position: center top;
+  -o-object-position: center top;
+     object-position: center top;
 }
 
 .subtitle {

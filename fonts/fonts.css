@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'GTWalsheimPro-Light';
+  src: url(./GTWalsheimPro-Light.woff), local('GTWalsheimPro-Light'),
+  format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GTWalsheimPro-Regular';
+  src: url(./GTWalsheimPro-Regular.woff), local('GTWalsheimPro-Regular'),
+  format('woff');
+  font-weight: normal;
+  font-display: swap;
+}

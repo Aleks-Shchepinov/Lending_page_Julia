@@ -106,7 +106,7 @@
 }
 
 .name::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 90%;
@@ -140,7 +140,7 @@
 }
 
 .name_text::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -176,9 +176,9 @@
 
 .image_about {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   block-size: 100%;
   inline-size: 100%;
   max-block-size: 100%;
@@ -291,9 +291,9 @@
 
 .fromlife_article-image {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   block-size: 300px;
   inline-size: 100%;
   border-radius: 25px;
@@ -335,7 +335,7 @@
 
 .article_low-image {
   -o-object-position: center top;
-     object-position: center top;
+  object-position: center top;
 }
 
 .subtitle {
@@ -393,5 +393,37 @@
 @media (width >= 1024px) {
   .page {
     margin-inline: auto;
+  }
+}
+
+@media (resolution >= 2x) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.3125rem, -0.4087rem + 3.0769vw, 0.9375rem);
+    margin-inline: 5px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fromlife {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fromlife_container-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image_about {
+    block-size: 70%;
+  }
+
+  .image {
+    margin-inline-start: 15px;
   }
 }

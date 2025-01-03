@@ -222,7 +222,6 @@
   list-style: disc inside;
   padding: 0 10px;
   font-weight: 200;
-  text-shadow: 0 0 1px #000000;
   font-size: clamp(0.875rem, 0.7874rem + 0.3738vw, 1.25rem);
 }
 
@@ -396,7 +395,7 @@
   }
 }
 
-@media (resolution >= 2x) {
+@media (resolution >= 2x) and (width <= 768px) {
   .content {
     display: flex;
     flex-direction: column;
